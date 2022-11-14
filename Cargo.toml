@@ -1,0 +1,8 @@
+[package]
+name = "base64_img"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+base64 = "0.13.1"
+clap = { version = "4.0.24", features = [ "derive" ] }
